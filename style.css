@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=VT323&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    /* font-family: 'Quicksand', sans-serif;
+    */
+    font-family: 'VT323', monospace;
+    /* background-color: #ddd5b4; */
+    /* font-family: 'Fira Code', monospace; */
+/* font-family: 'VT323', monospace; */
+    /* background-color: #3b3535;
+    background: url(cassette1.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+
+/* FOR VIDEO ONLY */
+.container {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-widget {
+    /* width: 400px; */
+    /* color: #f7cc9c; */
+    /* color: #0d4908; */
+    /* color: #2f203c; */
+    color: #fff;
+    height: 300px;
+    padding: 20px;
+    font-size: 20vh;
+    text-align: center;
+    text-shadow: 10px 20px 35px rgba(47, 32, 60, 90%);
+}
